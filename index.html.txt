@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width,initial-scale=1.0>
+<title>College Admission Form></title>
+</head>
+<body>
+      <h1>College Admission Form</h1>
+      <form action="#" method="post">
+      <fieldset>
+       <legend>Student Information</legend>
+<tr>
+<td>Full Name:</td>
+<td>
+<input type="text" name="full name" placeholder="Enter your full name" required></td>
+</tr>
+<br><br>
+<tr>
+<td>Email:</td>
+<td>
+<input type="email" name="email" placeholder="Enter your valid email address>
+</td>
+<tr>
+<br><br>
+<tr>
+<td>Phone Number:</td>
+<td>
+<input type="tel" name="phone number" placeholder="Enter your phone number">
+</td>
+</tr>
+<br><br>
+<tr>
+<td>Course:</td>
+<select id="course" name="course">
+<option value="BCA">BCA</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="B.Tech">B.Tech</option>
+</tr>
+<br><br>
+<tr>
+<td>Address:</td>
+<textarea id="Address" rows="3" cols="25" name="address" placeholder="Enter your address"></textarea>
+</tr>
+<br><br>
+<tr>
+<button value="submit">Submit</button>
+<button value="reset">Clear</button>
+
+
